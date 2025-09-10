@@ -178,4 +178,4 @@ async def on_message(message):
             print("Failed to delete message. Leaving it in log for retry.")
             pass
     
-bot.run('os.environ.get('DISCORD_TOKEN')')
+bot.run(os.environ.get('DISCORD_TOKEN'))
